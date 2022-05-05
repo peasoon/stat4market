@@ -1,0 +1,16 @@
+extends ./pug/_layout.pug
+
+block variables
+	- var title = 'Main page'
+	- var ata={id:'pipka'}
+
+block scripts
+
+
+block content
+	.wrapper
+		header.header(itemscope itemtype="http://schema.org/Organization")
+			include ./pug/_header.pug
+		main.page 
+			include ./pug/_page.pug
+		footer.footer

@@ -1,0 +1,27 @@
+.container.header-container
+	.header__logo.header-logo
+		.header-logo__image(itemprop="logo")
+			img(src="./img/header/logo.svg", alt="Логотип сайта")
+		.header-logo__text(itemprop="slogan") Надежный сервис аналитики для поставщиков на маркетплейсы
+	nav.header__menu.header-menu#headerMenu
+		ul.header-menu__list 
+			li.header-menu__item 
+				a(href="#").header-menu__link Аналитика
+				ul
+					li 
+						a Аналитика 1
+					li 
+						a Аналитика 2
+					li 
+						a Аналитика 3
+			li.header-menu__item 
+				a(href="#").header-menu__link Обучение
+	.header__phone
+		a(href="tel:84994503141" itemprop="telephone")  8 (499) 450-31-41
+	button.primary-btn.header__btn 
+		img(src="./img/icons/arow-btn.svg", alt="")
+		| Войти
+	.header__burger.burger#burgerBtn
+		span
+		span
+		span

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" id="pipka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Main page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header
+        class="header"
+        itemscope
+        itemtype="http://schema.org/Organization"
+      >
+        <div class="container header-container">
+          <div class="header__logo header-logo">
+            <div class="header-logo__image" itemprop="logo">
+              <img src="./img/header/logo.svg" alt="Логотип сайта" />
+            </div>
+            <div class="header-logo__text" itemprop="slogan">
+              Надежный сервис аналитики для поставщиков на маркетплейсы
+            </div>
+          </div>
+          <nav class="header__menu header-menu" id="headerMenu">
+            <ul class="header-menu__list">
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Аналитика</a>
+                <ul>
+                  <li><a>Аналитика 1</a></li>
+                  <li><a>Аналитика 2</a></li>
+                  <li><a>Аналитика 3</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Обучение</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__phone">
+            <a href="tel:84994503141" itemprop="telephone">
+              8 (499) 450-31-41</a
+            >
+          </div>
+          <button class="primary-btn header__btn">
+            <img src="./img/icons/arow-btn.svg" alt="" />Войти
+          </button>
+          <div class="header__burger burger" id="burgerBtn">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <div class="container">
+          <div class="bread-crumbs">
+            <span> <a href="#">Главная</a></span
+            ><span class="hyphen"></span><span> </span><a href="#">Обучение</a>
+          </div>
+        </div>
+        <section class="courses">
+          <div class="container courses-container">
+            <div class="courses__info courses-info">
+              <h1 class="courses-info__title">
+                <span>Обучающие курсы</span> для поставщиков на маркетплейсы
+              </h1>
+              <div class="courses-info__price ci-price">
+                <div class="ci-price__icon">
+                  <svg>
+                    <use xlink:href="./img/icons/sprite.svg#spent"></use>
+                  </svg>
+                </div>
+                <div class="ci-price__count">от <span>19 900</span></div>
+              </div>
+              <div class="courses-info__text">
+                <p>
+                  Обучающие курсы по работе и продвижению на маркетплейсах от
+                  практикующих селлеров
+                </p>
+                <p>
+                  Добро пожаловать в Академию. Это место для эффективного
+                  обучения, где мы рассказываем, как работают маркетплейсы и
+                  никогда не вдаемся в теорию, которая не понадобится на
+                  практике.
+                </p>
+                <p>
+                  Нащи уроки помогут понять логику работы площадок и взять
+                  управление продажами в свои руки, а не действовать наугад.
+                  Становись экспертом в работе с маркетплейсами и увеличивай
+                  свою прибыль.
+                </p>
+              </div>
+            </div>
+            <div class="courses__image">
+              <img
+                src="./img/courses/image.png"
+                alt="Мотивирующее изображение"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="trust">
+          <div class="container trust-container">
+            <h2 class="trust__title">
+              <span class="descktop"
+                >Небольшая предыстория о том, почему нам можно доверять</span
+              ><span class="mobile"
+                >Как работает модуль Аналитика по API для Wildberries?</span
+              >
+            </h2>
+            <div class="trust__items trust-items">
+              <!--item-->
+              <div class="trust-items__el ti-el">
+                <div class="ti-el__image">
+                  <img src="./img/trust/item01.png" alt="" />
+                </div>
+                <div class="ti-el__text">
+                  Свой путь в бизнесе мы начали в 2016 г. У нас были свои
+                  островные магазины в крупных ТЦ Москвы («Европейский»,
+                  «Метрополис», «Мега» и др.), а также свой интернет-магазин. Мы
+                  накопили большой опыт в продвижении своих товаров за счет
+                  многочисленных запусков разных рекламных каналов и работы с
+                  блогерами.
+                </div>
+              </div>
+              <!--end of item-->
+              <!--item-->
+              <div class="trust-items__el ti-el">
+                <div class="ti-el__image">
+                  <img src="./img/trust/item02.png" alt="" />
+                </div>
+                <div class="ti-el__text">
+                  <p>
+                    Летом 2019 года мы вышли на маркетплейсы и после работы с
+                    ними в течение 2 месяцев приняли решение развивать только
+                    это направление. И не прогадали. Весь накопленный опыт мы
+                    направили на улучшение и продвижение наших брендов.
+                  </p>
+                  <p>
+                    Пришло время поделится знаниями и лайфхаками, которые будут
+                    собраны и доступны в нашей Академии stat4market.
+                  </p>
+                </div>
+              </div>
+              <!--end of item-->
+            </div>
+          </div>
+        </section>
+        <section class="study">
+          <div class="container">
+            <h2 class="study__title">
+              Обучение по продажам на маркетплейсах от
+              <span class="title">stat<span class="accent">4</span>market</span>
+            </h2>
+            <div class="study__slogan">
+              «Увеличение реальной прибыли, конкретика и ключевые инструменты,
+              которые дают результат» — на этом тезисе созданы наши курсы
+            </div>
+            <div class="study__items study-items">
+              <!--item-->
+              <div class="study-items__el si-el">
+                <div class="si-el__icon">
+                  <svg>
+                    <use xlink:href="./img/icons/sprite.svg#target"></use>
+                  </svg>
+                </div>
+                <div class="si-el__title">
+                  Наше обучение построено очень лаконично и просто
+                </div>
+                <div class="si-el__text">
+                  Все занятия короткие по продолжительности для легкого
+                  восприятия и понимания. Мы даем в уроках только конкретику,
+                  без лишней теории и “воды”.
+                </div>
+              </div>
+              <!--end of item-->
+              <!--item-->
+              <div class="study-items__el si-el">
+                <div class="si-el__icon">
+                  <svg>
+                    <use xlink:href="./img/icons/sprite.svg#site"></use>
+                  </svg>
+                </div>
+                <div class="si-el__title">
+                  Ко всем урокам есть дополнительные материалы
+                </div>
+                <div class="si-el__text">
+                  Презентации, краткие инструкции, чек-листы и памятки по работе
+                  с маркетплейсами.
+                </div>
+              </div>
+              <!--end of item-->
+              <!--item-->
+              <div class="study-items__el si-el">
+                <div class="si-el__icon">
+                  <svg>
+                    <use xlink:href="./img/icons/sprite.svg#friends"></use>
+                  </svg>
+                </div>
+                <div class="si-el__title">
+                  Наше обучение — практико-ориентированное
+                </div>
+                <div class="si-el__text">
+                  Поэтому после прохождения уроков ты будешь выполнять задания,
+                  которые помогут тебе закрепить полученные знания на практике.
+                </div>
+              </div>
+              <!--end of item-->
+              <!--item-->
+              <div class="study-items__el si-el">
+                <div class="si-el__icon">
+                  <svg>
+                    <use xlink:href="./img/icons/sprite.svg#icons"></use>
+                  </svg>
+                </div>
+                <div class="si-el__title">Создатели нашей Академии</div>
+                <div class="si-el__text">
+                  Действующие селлеры с большим опытом в продажах на
+                  маркетплейсах, эксперты компании stat4market, а также
+                  профессиональные лекторы и методологи.
+                </div>
+              </div>
+              <!--end of item-->
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
